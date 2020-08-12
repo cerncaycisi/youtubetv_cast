@@ -1,0 +1,9 @@
+{
+   "background": { "scripts": [ "background.js" ] },
+   "description": "Load https://youtube.com/tv in a desktop browser",
+   "manifest_version": 2,
+   "name": "YouTube TV",
+   "permissions": [ "*://*.youtube.com/tv*", "webRequest", "webRequestBlocking" ],
+   "short_name": "dev-youtube-tv",
+   "version": "0.0.0"
+}
